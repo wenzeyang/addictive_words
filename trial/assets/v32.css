@@ -1,0 +1,17 @@
+/* Give annotations the breathing room of a Latin word space. Keep source text intact. */
+.story-text .word-token { margin-inline: .25em; }
+.story-text .parallel-token.annotated { margin-inline: .25em; }
+.story-text .parallel-token:not(.annotated) { margin-inline: 0; }
+[data-gloss-layout=en-top] .story-text .word-token,
+[data-gloss-layout=zh-top] .story-text .word-token { margin-inline: .25em; }
+/* The filter lives behind a toolbar button, rather than a permanent extra row. */
+.reader-filter-button { height:34px; min-height:34px; gap:6px; padding:5px 10px; flex-shrink:0; border-color:var(--accent); background:var(--soft); }
+.reader-filter-button strong { font-size:12px; }
+.reader-filter-button small { font-size:11px; font-variant-numeric:tabular-nums; }
+.reader-filter-button[aria-expanded=true] { background:var(--accent); color:var(--onAccent); }
+.reader-main:has([data-reader-filter]) > .lexicon-filter:not([open]) { display:none; }
+.reader-main:has([data-reader-filter]) > .lexicon-filter > summary { display:none; }
+.reader-main:has([data-reader-filter]) > .lexicon-filter[open] { padding:12px 20px; }
+.reader-main:has([data-reader-filter]) .lex-filter-body { margin-top:0; }
+.breadcrumb .book-back { display:inline-flex; width:36px; height:36px; padding:6px; margin-right:2px; flex:none; }
+@media(max-width:900px) { .breadcrumb .book-back { width:44px; height:44px; } }

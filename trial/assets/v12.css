@@ -1,0 +1,32 @@
+.shelf-toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 18px;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.shelf-toolbar>label,.book-group{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted)}
+.shelf-toolbar select,.book-group select{min-width:110px;max-width:230px;padding:7px 9px;border:1px solid var(--line);border-radius:5px;background:var(--paper);color:var(--ink);font-size:12px}
+.shelf-views{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}.shelf-views button{display:flex;align-items:center;gap:6px;padding:8px 10px;border:1px solid transparent;border-radius:5px;font-size:12px;color:var(--muted)}.shelf-views button[aria-pressed=true]{color:var(--accent);background:var(--soft);border-color:var(--line)}.shelf-views .icon{width:17px;height:17px}
+.library-books{display:grid;gap:16px}.book-group{margin-top:15px}.book-description{min-width:0}.book-description h2 button{overflow-wrap:anywhere}
+.group-manager{padding:24px}.group-add{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:18px 0 24px;font-size:13px}.group-manager input{min-width:0;flex:1;padding:10px;border:1px solid var(--line);border-radius:5px;background:var(--paper);color:var(--ink)}.group-edit{display:flex;gap:8px;align-items:center;border-top:1px solid var(--line);padding:12px 0}.group-edit>span{white-space:nowrap;font-size:12px;color:var(--muted)}
+[data-shelf-view=compact] .library-book{grid-template-columns:58px minmax(0,1fr);gap:18px;padding:16px 20px;border-radius:8px}
+[data-shelf-view=compact] .book-cover-button{width:58px}.library-books[data-shelf-view=compact] .book-cover,[data-shelf-view=compact] .imported-cover{min-height:82px;height:82px;padding:5px;border-radius:3px 6px 6px 3px}
+[data-shelf-view=compact] .book-cover>*,[data-shelf-view=compact] .imported-cover>*{display:none}
+[data-shelf-view=compact] .book-tags,[data-shelf-view=compact] .book-synopsis,[data-shelf-view=compact] .book-learning,[data-shelf-view=compact] .book-scope-summary{display:none}
+[data-shelf-view=compact] .book-description{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:20px;align-items:center}
+[data-shelf-view=compact] .book-description h2{font-size:19px;margin:0 0 5px;grid-column:1}
+[data-shelf-view=compact] .book-numbers{margin:0;font-size:11px;gap:10px;grid-column:1}
+[data-shelf-view=compact] .book-numbers b{font-size:13px}[data-shelf-view=compact] .book-numbers>span:last-child{display:none}
+[data-shelf-view=compact] .book-enter{grid-column:2;grid-row:1;gap:10px;justify-content:flex-end}
+[data-shelf-view=compact] .book-enter .btn{padding:7px 10px;font-size:11px}[data-shelf-view=compact] .book-group{grid-column:2;grid-row:2;margin:0;justify-content:flex-end}
+.library-books[data-shelf-view=covers]{grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:20px;align-items:start}
+[data-shelf-view=covers] .library-book{display:flex;flex-direction:column;gap:13px;padding:18px;border-radius:10px;height:100%}
+[data-shelf-view=covers] .book-cover-button{width:100%;align-self:stretch}[data-shelf-view=covers] .book-cover,[data-shelf-view=covers] .imported-cover{min-height:270px;height:270px;padding:20px}
+[data-shelf-view=covers] .book-cover strong{font-size:28px;letter-spacing:2px}[data-shelf-view=covers] .cover-illustration svg{height:110px}
+[data-shelf-view=covers] .book-tags,[data-shelf-view=covers] .book-synopsis,[data-shelf-view=covers] .book-learning,[data-shelf-view=covers] .book-scope-summary{display:none}
+[data-shelf-view=covers] .book-description{display:flex;flex-direction:column;flex:1;width:100%}
+[data-shelf-view=covers] .book-description h2{font-size:18px;line-height:1.5;margin:0 0 8px}[data-shelf-view=covers] .book-description h2 small{display:block;font-size:11px;margin:4px 0 0}
+[data-shelf-view=covers] .book-numbers{margin:0 0 12px;gap:10px}[data-shelf-view=covers] .book-numbers b{font-size:14px}[data-shelf-view=covers] .book-numbers>span:last-child{display:none}
+[data-shelf-view=covers] .book-enter{margin-top:auto;flex-wrap:wrap;gap:8px}[data-shelf-view=covers] .book-enter .btn{padding:8px 10px;font-size:12px;width:100%}
+[data-shelf-view=covers] .book-group select{min-width:0;flex:1;max-width:100%}
+.vocab-layout,.vocab-content{min-width:0}
+@media(min-width:1100px){.vocab-page{max-width:1580px}.vocab-layout.has-lookup{display:grid;grid-template-columns:minmax(0,1fr) 310px;align-items:start;gap:22px}.vocab-layout .lookup-sidebar{position:sticky;top:0;right:auto;bottom:auto;width:310px;max-height:calc(100dvh - 145px);box-shadow:none}.vocab-layout.has-lookup .table-row{grid-template-columns:minmax(95px,1fr) minmax(90px,1.1fr) 70px 65px 65px;gap:10px;padding-left:16px;padding-right:16px}.vocab-layout.has-lookup .page-heading{flex-wrap:wrap}.vocab-layout.has-lookup .vocab-toolbar{flex-wrap:wrap;gap:12px}}
+@media(max-width:760px){.shelf-views{margin-left:0;width:100%}.shelf-views button{flex:1;justify-content:center}.shelf-views .icon{width:16px;height:16px}.shelf-toolbar select{max-width:190px}.library-books[data-shelf-view=covers]{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}[data-shelf-view=covers] .library-book{padding:10px}[data-shelf-view=covers] .book-cover,[data-shelf-view=covers] .imported-cover{height:220px;min-height:220px;padding:12px}[data-shelf-view=covers] .book-cover strong{font-size:23px}[data-shelf-view=covers] .cover-series{font-size:8px;letter-spacing:0}.group-edit{flex-wrap:wrap}.group-edit input{flex-basis:70%}[data-shelf-view=compact] .book-description{display:block}[data-shelf-view=compact] .book-enter{margin-top:10px;justify-content:flex-start;flex-wrap:wrap}[data-shelf-view=compact] .book-group{justify-content:flex-start;margin-top:8px}}
+
+/* v14: expanded vocabulary filters */
+.source-learning{border-left:3px solid var(--accent);background:var(--soft);padding:12px;border-radius:6px}.source-learning p{font-size:13px;line-height:1.6}.membership-dots{flex-wrap:wrap;max-width:150px}.lexicon-filters,.lex-checkboxes{flex-wrap:wrap}

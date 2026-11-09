@@ -1,0 +1,26 @@
+[
+  {
+    "file": "SourceHanSansCN-VF.otf.woff2",
+    "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/Variable/WOFF2/OTF/Subset/SourceHanSansCN-VF.otf.woff2",
+    "bytes": 7995716,
+    "sha256": "7087698d52240614659957608d8c4ad446759aee3208409dc9f566412e7af8f4"
+  },
+  {
+    "file": "source-han-sans-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/LICENSE.txt",
+    "bytes": 4463,
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2"
+  },
+  {
+    "file": "SourceHanSerifCN-VF.otf.woff2",
+    "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/release/Variable/WOFF2/OTF/Subset/SourceHanSerifCN-VF.otf.woff2",
+    "bytes": 10421244,
+    "sha256": "808cb3203bb9cdd6b166a8a656a0c7608a7dc2a31c41c2cd0374550cae445471"
+  },
+  {
+    "file": "source-han-serif-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/release/LICENSE.txt",
+    "bytes": 4463,
+    "sha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903"
+  }
+]

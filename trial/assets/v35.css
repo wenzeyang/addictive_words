@@ -1,0 +1,14 @@
+.book-language {display:inline-flex;align-items:center;justify-self:start;align-self:start;width:max-content;max-width:100%;white-space:nowrap;border:1px solid var(--line);border-radius:5px;padding:3px 9px;font-size:12px;line-height:1.5;color:var(--muted);background:var(--paper);margin:4px 8px 4px 0;font-family:"Study Source Sans",sans-serif}
+.book-language[data-language="en"]{border-left:3px solid #5684b7}
+.book-language[data-language="zh"]{border-left:3px solid #5c927a}
+.book-language[data-language="bilingual"]{border-left:3px solid #9b7dab}
+.source-language-field{display:flex;align-items:center;gap:16px;margin:16px 0}.source-language-field select{max-width:230px}.source-language-note{font-size:13px;color:var(--muted)}
+.school-cover{display:flex;flex-direction:column;justify-content:space-between;width:100%;height:100%;aspect-ratio:2/3;padding:clamp(16px,2vw,30px);border-radius:4px 16px 16px 4px;border-left:8px solid #335f72;background:#e3edf0;color:#26434e;box-sizing:border-box;overflow:hidden;text-align:left}
+.school-cover[data-series="school-science"]{background:#e9efe0;border-color:#637b4c;color:#354828}.school-cover[data-series="school-american"]{background:#f4e6cf;border-color:#ab824b;color:#5c442c}
+.school-cover strong{font-size:clamp(19px,2.2vw,34px);line-height:1.45;font-weight:650}.school-cover small{font-size:12px;letter-spacing:.08em}.school-cover>span{font-size:18px;opacity:.85}.school-cover footer{font-size:13px;line-height:1.6;border-top:1px solid currentColor;padding-top:12px}
+.library-books[data-shelf-view=covers] .school-cover strong{font-size:clamp(16px,1.45vw,23px);line-height:1.28;letter-spacing:0;overflow-wrap:anywhere}
+.source-language-heading{margin-top:8px}
+
+.chapter-volume-title{grid-column:1/-1;margin:16px 0 0;padding:12px 0;border-bottom:1px solid var(--line);color:var(--ink);font-size:18px}.volume-filter{display:flex;align-items:center;gap:8px}.volume-filter select{max-width:260px}@media(max-width:600px){.volume-filter{width:100%}.volume-filter select{flex:1;min-width:0}}
+
+@media(max-width:600px){.chapter-list .volume-chapter .card-body{grid-template-columns:68px minmax(0,1fr)}}

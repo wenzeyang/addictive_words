@@ -1,0 +1,1 @@
+window.TravelCourse={create(){return {reader(){return ''},bookPage(){return ''},cover(){return ''},locate(){},asset:p=>p,clearSelection(){},afterRender(){}}},register(){},isBook(){return false},isChapter(){return false},wordSource(){return ''},data:null,asset:p=>p};

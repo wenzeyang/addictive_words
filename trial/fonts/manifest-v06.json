@@ -1,0 +1,56 @@
+[
+  {
+    "file": "SourceHanSansCN-VF.otf.woff2",
+    "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/Variable/WOFF2/OTF/Subset/SourceHanSansCN-VF.otf.woff2",
+    "bytes": 7995716,
+    "sha256": "7087698d52240614659957608d8c4ad446759aee3208409dc9f566412e7af8f4"
+  },
+  {
+    "file": "source-han-sans-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/LICENSE.txt",
+    "bytes": 4463,
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2"
+  },
+  {
+    "file": "lora-400-latin.woff2",
+    "source": "https://fonts.gstatic.com/s/lora/v37/0QIvMX1D_JOuMwr7Iw.woff2",
+    "cssSource": "https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap",
+    "bytes": 37788,
+    "sha256": "ddb8c66035104e233fc024669183aad3738b6daa16deee2ebb1241bd0f98ace1"
+  },
+  {
+    "file": "lora-600-latin.woff2",
+    "source": "https://fonts.gstatic.com/s/lora/v37/0QIvMX1D_JOuMwr7Iw.woff2",
+    "cssSource": "https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap",
+    "bytes": 37788,
+    "sha256": "ddb8c66035104e233fc024669183aad3738b6daa16deee2ebb1241bd0f98ace1"
+  },
+  {
+    "file": "literata-400-latin.woff2",
+    "source": "https://fonts.gstatic.com/s/literata/v40/or3aQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbBG_df3-vbgKBM6YoggA-vpO-7c.woff2",
+    "cssSource": "https://fonts.googleapis.com/css2?family=Literata:wght@400;600&display=swap",
+    "bytes": 38996,
+    "sha256": "fde3d14f78c3431ee5e2f676a46dd18a1dd48ee4d0a71cc76c751f9e6f76f58e"
+  },
+  {
+    "file": "literata-600-latin.woff2",
+    "source": "https://fonts.gstatic.com/s/literata/v40/or3aQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbBG_df3-vbgKBM6YoggA-vpO-7c.woff2",
+    "cssSource": "https://fonts.googleapis.com/css2?family=Literata:wght@400;600&display=swap",
+    "bytes": 38996,
+    "sha256": "fde3d14f78c3431ee5e2f676a46dd18a1dd48ee4d0a71cc76c751f9e6f76f58e"
+  },
+  {
+    "file": "sourcesans3-400-latin.woff2",
+    "source": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpStKy2OAdR1K-IwhWudF-R3w8aZQ.woff2",
+    "cssSource": "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap",
+    "bytes": 28872,
+    "sha256": "19143dca075972bc84e3fd9eab7416dd40cc565dccb2435a044bdfabe060c7d5"
+  },
+  {
+    "file": "sourcesans3-600-latin.woff2",
+    "source": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpStKy2OAdR1K-IwhWudF-R3w8aZQ.woff2",
+    "cssSource": "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap",
+    "bytes": 28872,
+    "sha256": "19143dca075972bc84e3fd9eab7416dd40cc565dccb2435a044bdfabe060c7d5"
+  }
+]

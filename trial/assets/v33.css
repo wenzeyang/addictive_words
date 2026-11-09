@@ -1,0 +1,16 @@
+.book-intro-actions { display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+.book-intro-actions>.btn { box-sizing:border-box; width:156px; min-height:46px; justify-content:center; padding:10px 16px; }
+.prepared-intro .book-intro-actions { grid-column:2; grid-row:2; }
+.fixed-vocabulary-reader .lex-mark { display:none; }
+/* Fixed learning words still need a visual separator without exam-list colours. */
+.fixed-vocabulary-reader .textbook-content .word-token .en { text-decoration-line:underline; text-decoration-color:var(--accent); text-decoration-thickness:1px; text-underline-offset:.16em; }
+.reader-filter-button .annotation-counts { display:inline; margin-left:4px; font-size:9px; line-height:1.2; }
+.parallel-vocabulary-supplement { position:relative;z-index:3;margin:12px 0 20px;padding:8px 12px;border-radius:6px;background:var(--soft);font:13px/1.6 var(--reader-font); }
+.parallel-vocabulary-supplement summary { cursor:pointer;color:var(--accent);font-weight:600; }
+.parallel-vocabulary-supplement summary span { margin-left:6px; }
+.story-text .parallel-vocabulary-supplement .supplement-explanation { margin:8px 0;font-size:12px;line-height:1.6;color:var(--muted); }
+.supplement-words { display:flex;flex-wrap:wrap;gap:8px; }
+.supplement-words button { display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;background:var(--paper);border:1px solid var(--line);border-radius:5px;padding:8px 10px;min-height:44px;max-width:100%; }
+.supplement-words strong { font:500 16px/1.4 var(--english-font,var(--reader-font));overflow-wrap:anywhere; }
+.supplement-words span { font-size:12px;color:var(--muted); }
+@media(max-width:650px){.prepared-intro .book-intro-actions{grid-column:1/-1;grid-row:auto}.book-intro-actions{flex-wrap:nowrap;gap:10px}.book-intro-actions>.btn{width:auto;flex:1;min-width:0;padding:10px 8px}}

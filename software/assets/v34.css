@@ -1,0 +1,19 @@
+/* Positive union and negative union remain separate, equally accessible controls. */
+.lex-selection-title { display:flex; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:12px; font-size:13px; }
+.lex-selection-title>span { color:var(--muted); margin-right:auto; }
+.lex-selection-title>button { color:var(--accent); text-decoration:underline; text-underline-offset:4px; min-height:36px; }
+.lex-exclusions { margin-top:16px; padding:12px 14px; border:1px solid var(--line); border-radius:8px; background:var(--paper); }
+.lex-exclusions>summary { display:list-item; color:var(--accent); font-weight:600; cursor:pointer; line-height:1.6; overflow-wrap:anywhere; }
+.lex-exclusions>p,.scope-exclusions>p { font-size:13px; line-height:1.6; color:var(--muted); margin:8px 0 12px; }
+.lex-exclusions .lex-chip-row { display:flex; flex-wrap:wrap; gap:8px; }
+.lex-exclusions .lex-chip:has(input:checked),.scope-exclusions .lex-chip:has(input:checked) { border-style:dashed; border-color:var(--accent); background:var(--soft); }
+.scope-dialog .scope-exclusions { display:block; margin-top:18px; }
+.scope-dialog .scope-exclusions .lex-chip-row { display:flex;flex-wrap:wrap;gap:8px; }
+.scope-dialog .scope-exclusions .lex-chip { display:inline-flex; width:auto; gap:7px; padding:8px 10px; }
+.scope-dialog .scope-exclusions .lex-chip i { width:9px;height:9px;flex:none;border-radius:2px; }
+@media(max-width:650px){
+ .lex-selection-title { gap:8px; }
+ .lex-selection-title>button,.lex-exclusions .lex-chip { min-height:44px; }
+ .lex-exclusions { padding:10px; }
+ .lex-exclusions>summary { min-height:36px; }
+}
