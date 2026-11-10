@@ -1,0 +1,99 @@
+{
+  "source": {
+    "name": "conversion-lexicon.js",
+    "version": 15,
+    "sha256": "a498b25e053770e1ddfcdc611ffbddf914199f5fd6bfc7617669aefac6816e35",
+    "entries": 22960
+  },
+  "asset": "tagged-vocabulary-v15.json.gz",
+  "asset_sha256": "fb84343df11bcbd9c2f976a6cd430581c33488f196285829fe4da51214335fed",
+  "compressed_bytes": 146954,
+  "uncompressed_bytes": 1302382,
+  "lists": [
+    {
+      "id": "gmat",
+      "label": "GMAT",
+      "count": 3267
+    },
+    {
+      "id": "gre",
+      "label": "GRE",
+      "count": 9893
+    },
+    {
+      "id": "sat",
+      "label": "SAT",
+      "count": 4414
+    },
+    {
+      "id": "tem8",
+      "label": "专八",
+      "count": 12298
+    },
+    {
+      "id": "tem4",
+      "label": "专四",
+      "count": 4306
+    },
+    {
+      "id": "pep-high",
+      "label": "人教高中",
+      "count": 3334
+    },
+    {
+      "id": "cet6",
+      "label": "六级",
+      "count": 3962
+    },
+    {
+      "id": "cet4",
+      "label": "四级",
+      "count": 4501
+    },
+    {
+      "id": "business",
+      "label": "商务英语",
+      "count": 2811
+    },
+    {
+      "id": "fltrp-junior",
+      "label": "外研社初中",
+      "count": 1911
+    },
+    {
+      "id": "toefl",
+      "label": "托福",
+      "count": 10211
+    },
+    {
+      "id": "postgrad",
+      "label": "考研",
+      "count": 5005
+    },
+    {
+      "id": "ielts",
+      "label": "雅思",
+      "count": 5231
+    },
+    {
+      "id": "highschool",
+      "label": "高中",
+      "count": 3711
+    },
+    {
+      "id": "pep-junior",
+      "label": "人教版初中",
+      "count": 2179
+    },
+    {
+      "id": "pep-primary",
+      "label": "人教小学",
+      "count": 791
+    },
+    {
+      "id": "toeic",
+      "label": "托业",
+      "count": 1456
+    }
+  ]
+}

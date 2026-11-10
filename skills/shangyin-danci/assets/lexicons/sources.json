@@ -1,0 +1,20 @@
+{
+  "snapshot_date": "2026-11-10",
+  "scope": "Community reference lists; not official exam classifications. Only headword membership is checked.",
+  "lexicons": {
+    "CET4": {
+      "file": "cet4.txt",
+      "source": "https://github.com/mahavivo/english-wordlists/blob/master/CET4_edited.txt",
+      "derivation": "Only single-word headwords, deduplicated; source label 4615 differs from parsed 4530.",
+      "count": 4530,
+      "sha256": "92062690ba551694e80e61d1393aa23451676a3856fec7827cf143ea7cc9e3c1"
+    },
+    "IELTS": {
+      "file": "ielts.txt",
+      "source": "https://github.com/kajweb/dict/blob/master/book/1521164666922_IELTS_3.zip",
+      "derivation": "Unique headWord values from IELTS_3; excludes definitions and examples.",
+      "count": 3575,
+      "sha256": "410bbe37bc9626e1ae7cb7520e00306b205e1503a84596bf104398667e2f21c2"
+    }
+  }
+}

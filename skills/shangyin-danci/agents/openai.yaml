@@ -1,0 +1,4 @@
+interface:
+  display_name: "上瘾单词"
+  short_description: "把中英文小说制作成英文回填读物，按句控制密度，并保留逐段对齐的中英双语版本"
+  default_prompt: "使用 $shangyin-danci 将这本小说制作成英文回填读物，并保留逐段对齐的中英双语版。"
